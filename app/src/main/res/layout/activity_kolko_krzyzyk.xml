@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kolko_krzyzyk"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/p11"
+        android:layout_width="@dimen/wielkosc_guziku"
+        android:layout_height="@dimen/wielkosc_guziku"
+        android:layout_weight="1"
+        android:text="@string/empty"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:id="@+id/p12"
+        android:layout_width="@dimen/wielkosc_guziku"
+        android:layout_height="@dimen/wielkosc_guziku"
+        android:layout_weight="1"
+        android:text="@string/empty"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:id="@+id/p13"
+        android:layout_width="@dimen/wielkosc_guziku"
+        android:layout_height="@dimen/wielkosc_guziku"
+        android:layout_weight="1"
+        android:text="@string/empty"
+        android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/p21"
+            android:layout_width="@dimen/wielkosc_guziku"
+            android:layout_height="@dimen/wielkosc_guziku"
+            android:layout_weight="1"
+            android:text="@string/empty"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/p22"
+            android:layout_width="@dimen/wielkosc_guziku"
+            android:layout_height="@dimen/wielkosc_guziku"
+            android:layout_weight="1"
+            android:text="@string/empty"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/p23"
+            android:layout_width="@dimen/wielkosc_guziku"
+            android:layout_height="@dimen/wielkosc_guziku"
+            android:layout_weight="1"
+            android:text="@string/empty"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/p31"
+            android:layout_width="@dimen/wielkosc_guziku"
+            android:layout_height="@dimen/wielkosc_guziku"
+            android:layout_weight="1"
+            android:text="@string/empty"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/p32"
+            android:layout_width="@dimen/wielkosc_guziku"
+            android:layout_height="@dimen/wielkosc_guziku"
+            android:layout_weight="1"
+            android:text="@string/empty"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/p33"
+            android:layout_width="@dimen/wielkosc_guziku"
+            android:layout_height="@dimen/wielkosc_guziku"
+            android:layout_weight="1"
+            android:text="@string/empty"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/komunikat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/graj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jeszcze raz"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".kolko_krzyzyk">
+
+        <Button
+            android:id="@+id/kolorki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Za mało za dużo"/>
+
+        <Button
+            android:id="@+id/duzoMalo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Za dużo za mało"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/tlo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/czerwony"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/podaj_skladowa_czerwona"
+        android:paddingLeft="@dimen/odstep_sredni"
+        android:textColor="#f00"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="@dimen/odstep_sredni"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/zielony"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/podaj_skladowa_zielona"
+        android:paddingLeft="@dimen/odstep_sredni"
+        android:textColor="#0f0"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="@dimen/odstep_sredni"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/niebieski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/podaj_skladowa_niebieska"
+        android:paddingLeft="@dimen/odstep_sredni"
+        android:textColor="#f00"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="@dimen/odstep_sredni"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Zmień kolor tła"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="za dużo za mało"
+        />
+
+</LinearLayout>

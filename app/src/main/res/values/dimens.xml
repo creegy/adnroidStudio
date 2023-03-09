@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="odstep_sredni">10dp</dimen>
+    <dimen name="odstep_maly">10dp</dimen>
+    <dimen name="tekst_duzy">24sp</dimen>
+    <dimen name="wielkosc_guziku">100dp</dimen>
+</resources>

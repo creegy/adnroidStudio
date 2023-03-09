@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">gierki</string>
+    <string name="podaj_skladowa_czerwona">Podaj składową czerwoną (0-255)</string>
+    <string name="podaj_skladowa_zielona">Podaj składową zieloną (0-255)</string>
+    <string name="podaj_skladowa_niebieska">Podaj składową czerwoną (0-255)</string>
+    <string name="empty" />
+</resources>

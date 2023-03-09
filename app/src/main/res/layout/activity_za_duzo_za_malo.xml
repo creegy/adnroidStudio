@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".za_duzo_za_malo"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/zgadywana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zgadnij liczbę od 1 do 100"
+        android:paddingLeft="@dimen/odstep_maly"
+        android:layout_marginBottom="@dimen/odstep_maly"
+        android:inputType="number"
+        android:imeOptions="actionDone"/>
+
+    <Button
+        android:id="@+id/sprawdz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sprawdź"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/odstep_maly"/>
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zgaduj"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/tekst_duzy"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".za_duzo_za_malo">
+
+    <Button
+        android:id="@+id/kolorki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="kolorki"/>
+
+    <Button
+        android:id="@+id/krzyzyk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Kółko i krzyżyk"/>
+    </LinearLayout>
+
+</LinearLayout>
